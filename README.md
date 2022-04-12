@@ -14,4 +14,5 @@ The postman collection has links for a test site
 This query works with pivot 
 api/getStudentTeachers/3?apikey=passwd
 getStudentTeachers/3 - 3 this is id of a student
+
 response: list of teachers of student
