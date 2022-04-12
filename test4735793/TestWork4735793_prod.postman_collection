@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "4a598821-da80-4806-a4c4-ab4a94f04fa1",
+		"name": "TestWork4735793",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://test4735793.demotest.com.ua/api/students/3?apikey=passwd",
+					"protocol": "https",
+					"host": [
+						"test4735793",
+						"demotest",
+						"com",
+						"ua"
+					],
+					"path": [
+						"api",
+						"students",
+						"3"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "passwd"
+						}
+					]
+				},
+				"description": "Get all students"
+			},
+			"response": []
+		},
+		{
+			"name": "students/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://test4735793.demotest.com.ua/api/searchstudents/ита?apikey=passwd",
+					"protocol": "https",
+					"host": [
+						"test4735793",
+						"demotest",
+						"com",
+						"ua"
+					],
+					"path": [
+						"api",
+						"searchstudents",
+						"ита"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "passwd"
+						}
+					]
+				},
+				"description": "Get student by id"
+			},
+			"response": []
+		},
+		{
+			"name": "searchstudents/name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://test4735793.demotest.com.ua/api/searchstudents/ита?apikey=passwd",
+					"protocol": "https",
+					"host": [
+						"test4735793",
+						"demotest",
+						"com",
+						"ua"
+					],
+					"path": [
+						"api",
+						"searchstudents",
+						"ита"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "passwd"
+						}
+					]
+				},
+				"description": "Get student by name"
+			},
+			"response": []
+		},
+		{
+			"name": "getStudentTeachers/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://test4735793.demotest.com.ua/api/getStudentTeachers/3?apikey=passwd",
+					"protocol": "https",
+					"host": [
+						"test4735793",
+						"demotest",
+						"com",
+						"ua"
+					],
+					"path": [
+						"api",
+						"getStudentTeachers",
+						"3"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "passwd"
+						}
+					]
+				},
+				"description": "Get teachers of student"
+			},
+			"response": []
+		}
+	]
+}
