@@ -52,10 +52,10 @@ class ApiController extends Controller
     {
         if (!$collection->isEmpty()) {
             return response($collection->toJson(JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE), 200);
-        } else {
-            return response()->json([
-                "message" => $textNotFound
-              ], 404);           
         }
+        
+        return response()->json([
+            "message" => $textNotFound
+          ], 404);           
     }
 }
